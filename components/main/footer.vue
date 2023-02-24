@@ -10,7 +10,7 @@
           </p>
           <div class="my-3 space-x-3 pb-3">
             <NuxtLink
-              to="https://github.com/nurRiyad"
+              to="https://github.com/mohin7"
               target="_blank"
               class="p-2 bg-gray-300 rounded-md"
               aria-label="Github"

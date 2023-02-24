@@ -5,7 +5,8 @@
         <img width="550" height="550" src="../../public/mohin.jpg" alt="mohin-photo" />
       </div>
       <div class="intro">
-        <h2><em>Hi.</em> I am Mohin</h2>
+        <!-- <h2><em>Hi.</em> I am Mohin</h2> -->
+        <h2><em>হ্যালো.</em> স্বাগতম আমার ডেইলি ব্লগ সাইটে।</h2>
       </div>
     </div>
   </div>

@@ -25,7 +25,7 @@ useHead({
         'Blow All the topics are listed on which either I have written a blog or will write a blog in near future.',
     },
   ],
-  titleTemplate: "Riyad's Blog - %s",
+  titleTemplate: "Mohin's Blog - %s",
 })
 </script>
 <template>

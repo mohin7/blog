@@ -84,7 +84,7 @@ withDefaults(defineProps<Props>(), {
     </div>
     <!-- date and tag  -->
 
-    <div class="py-4">
+    <div class="py-2">
       <!-- title  -->
       <h1 class="text-xl font-bold mb-2">
         <NuxtLink :to="path">{{ title }}</NuxtLink>
