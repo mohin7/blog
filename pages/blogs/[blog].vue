@@ -76,19 +76,19 @@ useHead({
 <template>
   <main class="container max-w-5xl mx-auto">
     <header>
-      <h1 class="text-xl md:text-3xl lg:text-5xl m-7 font-bold text-center">
+      <h1 class="text-xl md:text-3xl lg:text-5xl mr-10 mb-10 mt-10 font-bold text-left">
         {{ data.title || '' }}
       </h1>
       <NuxtImg
         :provider="data.provider"
         :src="data.image || ''"
         :alt="data.alt || ''"
-        class="m-auto rounded-2xl shadow-lg h-52 md:h-96 w-4/5 content-center object-cover"
+        class="m-auto rounded-2xl shadow-lg h-52 md:h-96 w-full content-center object-cover"
       />
-      <p class="text-xs sm:text-sm my-3 max-w-3xl mx-auto text-center text-zinc-600">
+      <p class="text-xs sm:text-sm my-3 mx-auto text-left text-zinc-600">
         {{ data.description }}
       </p>
-      <div class="flex w-full justify-center text-xs md:text-base my-8">
+      <div class="flex w-full text-xs md:text-base my-8">
         <div class="md:flex text-black content-center gap-8 text-xs sm:text-sm">
           <div class="flex items-center font-semibold">
             <LogoDate />

@@ -70,17 +70,17 @@ withDefaults(defineProps<Props>(), {
     <!-- thumbnail  -->
 
     <!-- date and tag  -->
-    <div class="flex justify-between text-sm">
+    <div class="flex justify-between text-sm flex-wrap">
       <div class="flex items-center gap-1 flex-wrap">
         <LogoDate />
         {{ date }}
       </div>
-      <div class="flex items-center gap-1 flex-wrap">
+      <!-- <div class="flex items-center gap-1 flex-wrap">
         <LogoTag />
         <template v-for="tag in tags" :key="tag">
           <span>{{ tag }}</span>
         </template>
-      </div>
+      </div> -->
     </div>
     <!-- date and tag  -->
 
